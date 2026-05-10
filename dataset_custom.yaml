@@ -1,0 +1,15 @@
+# YOLO Dataset Configuration
+
+# Set the base path to your newly split dataset directory
+path: ./Dataset_Split
+
+# Define the relative paths to the splits
+train: train
+val: val
+test: test
+
+# Define the classes (must match the IDs generated from Roboflow)
+names:
+  0: car
+  1: car_plate
+  2: driver

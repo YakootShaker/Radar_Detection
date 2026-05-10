@@ -1,0 +1,20 @@
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Data and Models
+Dataset/
+Dataset_Split/
+*.pt
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
